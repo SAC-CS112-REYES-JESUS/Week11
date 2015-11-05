@@ -14,7 +14,6 @@ public class Dice{
 		number =num;
 		}
 
-		
 		public int OneDice()
 		{
 			
@@ -29,8 +28,6 @@ public class Dice{
 			return random;
 		}
 			
-			
-		
 		public int ThreeDice(){
 			int random = (int) ((Math.random()* 18)+2);
 			valueNumber = random;
@@ -39,7 +36,6 @@ public class Dice{
 		}
 		
 	//lab week11	
-		
 			public Dice(){
 			
 		}
@@ -49,23 +45,15 @@ public class Dice{
 			valueNumber = random;
 			return random;
 		}
-		
-	
-		
+
 		public int Value(){
 			return valueNumber;
 		}
 		
-		public int Throw(int bounce){
-			int i=0;
-			while(i<bounce)
-					{Throw();
-					i++;}
-			
-			return valueNumber;
+		
 			
 			
-		}
+		
 }
 		
 	
